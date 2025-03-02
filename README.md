@@ -23,18 +23,18 @@
 </div>
 
 ## 📦 Instalação Rápida
-
-# Clone o repositório
+ 
+# Clone o repositório 🔧
 ```bash
-git clone https://github.com/seu-usuario/
+git clone https://github.com/Eldritch-Tenebris/Base-Typescript.git
 ```
 
-# Acesse o diretório do projeto
+# Acesse o diretório do projeto 📁
 ```bash
-cd base-typescript
+cd Base-Typescript
 ```
 
-# Instale as dependências
+# Instale as dependências 🏴󠁶󠁥󠁷󠁿
 ```bash
 npm install
 ```
