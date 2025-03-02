@@ -61,7 +61,7 @@ discord-bot
 
 1️⃣ Clone o repositório:
 ```sh
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/{{ owner }}/{{ repository }}
 cd discord-bot
 ```
 
