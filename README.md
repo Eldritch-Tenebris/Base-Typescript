@@ -22,29 +22,29 @@
 
 ---
 
-## 📦 Instalação Rápida
+# 📦 Instalação Rápida
  
-# Clone o repositório 🔧
+## Clone o repositório 🔧
 ```bash
 git clone https://github.com/Eldritch-Tenebris/Base-Typescript.git
 ```
 
-# Acesse o diretório do projeto 📁
+## Acesse o diretório do projeto 📁
 ```bash
 cd Base-Typescript
 ```
 
-# Instale as dependências 🏴󠁶󠁥󠁷󠁿
+## Instale as dependências 🏴󠁶󠁥󠁷󠁿
 ```bash
 npm install
 ```
 
-# Configure as variáveis de ambiente
+## Configure as variáveis de ambiente
 ```bash
 cp .env.example .env
 ```
 
-# Inicie o ambiente de desenvolvimento
+## Inicie o ambiente de desenvolvimento
 ```bash
 npm run dev
 ```
@@ -88,8 +88,3 @@ createCommand({
 ## 📄 Licença <img src="https://img.shields.io/github/license/Eldritch-Tenebris/Base-Typescript?style=for-the-badge&cacheSeconds=60"/>
 
 Este projeto está licenciado sob a **MIT License**. Consulte o arquivo **LICENSE** para mais detalhes. 
-
-<a href="https://github.com/Eldritch-Tenebris/Base-Typescript/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Eldritch-Tenebris/Base-Typescript" />
-</a>
-
