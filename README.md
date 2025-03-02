@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 <a href="https://discord.com/users/1226297864796246016" target="_blank">
-  <img src="https://imgur.com/fecf996a-ff1c-44df-8405-1322d019feac" alt="Base-Typescript">
+  <img src="https://i.imgur.com/13PduII.png" alt="Base-Typescript">
 </a>
 </p>
 <br />
