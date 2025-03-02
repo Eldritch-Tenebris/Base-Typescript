@@ -6,6 +6,12 @@
 </p>
 <br />
 
+
+<p align="center">
+Fiz esse projeto pensando em ajuda as pessoas que estão começando com Bots de discord em TypeScript
+</p>
+
+
 # Discord Bot Project
 
 Este projeto é um bot para o Discord, desenvolvido em Node.js com TypeScript. O bot utiliza comandos de barra (slash commands) e se conecta a um banco de dados MongoDB para armazenar informações.
