@@ -18,8 +18,6 @@
    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
   <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)"/>
-  <img src=""/>
-  <img src=""/>
 </div>
 
 ## 📦 Instalação Rápida
@@ -85,6 +83,6 @@ createCommand({
 });
 ```
 
-## 📄 Licença
+## 📄 Licença <img src="https://img.shields.io/github/license/Eldritch-Tenebris/Base-Typescript?style=for-the-badge&cacheSeconds=60"/>
 
-Este projeto está licenciado sob a **MIT License**. Consulte o arquivo **LICENSE** para mais detalhes.
+Este projeto está licenciado sob a **MIT License**. Consulte o arquivo **LICENSE** para mais detalhes. 
