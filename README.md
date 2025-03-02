@@ -1,93 +1,60 @@
-<br />
-<p align="center">
-<a href="https://discord.com/users/1226297864796246016" target="_blank">
-  <img src="https://i.imgur.com/13PduII.png" alt="Base-Typescript">
-</a>
-</p>
-<br />
+# Base-Typescript
 
-<p align="center">
-  <strong>Fiz esse projeto para ajudar quem está começando com bots de Discord em TypeScript! 🚀</strong>
-</p>
+> Base moderna para desenvolvimento de bots Discord usando TypeScript e MongoDB.
+> Feita em colaboração de .. ..
 
-<p align="center">
-  <a href="https://discord.com/users/1226297864796246016">
-    <img src="https://img.shields.io/badge/Entrar%20em%20nosso-Discord-blue" alt="Discord">
-  </a>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-</p>
+<div align="center">
+   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+   <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+</div>
 
----
+## 📦 Instalação Rápida
 
-# 🤖 Discord Bot Project
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/
 
-Este é um bot para o Discord, desenvolvido com **Node.js e TypeScript**. Ele suporta **comandos de barra (slash commands)** e se conecta a um banco de dados **MongoDB** para armazenar informações.
-
-## 📁 Estrutura do Projeto
-
-```
-discord-bot
-├── src
-│   ├── commands          # Comandos do bot
-│   │   ├── common        # Comandos comuns
-│   │   └── admin         # Comandos administrativos
-│   ├── events            # Eventos do bot
-│   ├── models            # Modelos do MongoDB
-│   ├── utils             # Funções auxiliares
-│   ├── services          # Serviços do bot
-│   ├── types             # Tipos e interfaces
-│   ├── config.ts        # Configurações do bot
-│   ├── client.ts        # Configuração do cliente do Discord
-│   └── index.ts         # Ponto de entrada da aplicação
-├── .env.example          # Exemplo de variáveis de ambiente
-├── .gitignore            # Arquivos ignorados pelo Git
-├── package.json          # Configuração do npm
-├── tsconfig.json         # Configuração do TypeScript
-├── README.md             # Documentação do projeto
-└── nodemon.json          # Configurações do Nodemon
-```
-
-## ⚡ Funcionalidades
-
-✅ **Comandos de Barra (Slash Commands)** - Interação intuitiva com o bot.
-✅ **Banco de Dados MongoDB** - Armazena informações sobre usuários e guildas.
-✅ **Comandos Essenciais**:
-- `/ping` - Responde com "Pong!" 🏓
-- `/help` - Lista todos os comandos disponíveis 📜
-- `/info` - Exibe informações sobre o bot ℹ️
-- Comandos administrativos como **banir** e **expulsar** usuários ⚠️
-
-## 🚀 Como Executar o Projeto
-
-1️⃣ Clone o repositório:
-[![GitHub Repo](https://img.shields.io/badge/GitHub-View%20Repo-blue?style=for-the-badge&logo=github)](../../)
-```sh
-git clone https://github.com/{{ owner }}/{{ repository }}
-cd discord-bot
-```
-
-2️⃣ Instale as dependências:
-```sh
+# Instale as dependências
 npm install
-```
 
-3️⃣ Configure as variáveis de ambiente:
-- Renomeie `.env.example` para `.env` e preencha com suas informações.
+# Configure o ambiente
+cp .env.example .env
 
-4️⃣ Inicie o bot:
-```sh
-npm run start
-```
+# Inicie em desenvolvimento
+npm run dev
 
-## 🤝 Contribuição
+📚 Documentação
+Consulte nossa Wiki para documentação detalhada sobre:
 
-Contribuições são bem-vindas! Se quiser ajudar, abra uma **issue** ou envie um **pull request**. 😃
+🚀 Primeiros Passos
+⚙️ Configuração
+📂 Estrutura do Projeto
+💻 Guias de Desenvolvimento
+🔧 Referência da API
+🌟 Recursos
+Sistema moderno de comandos com TypeScript
+Gerenciamento avançado de eventos
+Sistema de responders para botões/menus
+Integração MongoDB para persistência
+Sistema de parâmetros dinâmicos
+Tratamento de erros robusto
+Hot reload em desenvolvimento
 
-## 📜 Licença
+📝 Exemplo de Comando
 
-Este projeto está licenciado sob a **MIT License**. Veja o arquivo LICENSE para mais detalhes.
+createCommand({
+    name: "ping",
+    description: "Mostra a latência do bot 🏓",
+    type: ApplicationCommandType.ChatInput,
+    async run(interaction) {
+        await interaction.reply({ 
+            content: "🏓 Pong!", 
+            flags: ["Ephemeral"] 
+        });
+    }
+});
 
----
-
-<p align="center">💙 Feito com TypeScript para a comunidade do Discord! 💙</p>
-
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
