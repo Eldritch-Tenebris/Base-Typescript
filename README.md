@@ -10,14 +10,16 @@
 
 > Uma base moderna para o desenvolvimento de bots para Discord utilizando TypeScript e MongoDB.
 
-> Criada em colaboração com [Eldritch Tenebris](https://github.com/Eldritch-Tenebris) & [lipedevv](https://github.com/lipedevv)
+> <div align="center">
+Feito com 💜 por <a href="https://github.com/Eldritch-Tenebris">Eldritch Tenebris</a> & <a href="https://github.com/lipedevv">lipedevv</a>
+</div>
 
 <div align="center">
    <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)"/>
+   <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
 </div>
 
 ---
@@ -51,23 +53,36 @@ npm run dev
 
 ## 📚 Documentação
 
-Acesse nossa **Wiki** para informações detalhadas sobre:
+Acesse nossa **[Wiki](https://github.com/Eldritch-Tenebris/Base-Typescript/wiki)** para informações detalhadas sobre:
 
-- 🚀 **Primeiros Passos**
-- ⚙️ **Configuração**
-- 📂 **Estrutura do Projeto**
-- 💻 **Guias de Desenvolvimento**
-- 🔧 **Referência da API**
+- 🔰 Guia de início rápido
+- 📖 Tutoriais detalhados
+- 🔧 Referência da API
+- 💡 Exemplos práticos
+- 🌟 Melhores práticas
 
-## 🌟 Recursos
+## ⚡ Recursos
 
-✅ Sistema moderno de comandos com TypeScript  
-✅ Gerenciamento avançado de eventos  
-✅ Suporte a botões e menus interativos  
-✅ Integração com MongoDB para persistência de dados  
-✅ Parâmetros dinâmicos e flexíveis  
-✅ Tratamento robusto de erros  
-✅ Hot reload para desenvolvimento ágil  
+- ✨ Sistema moderno de comandos com TypeScript
+- 🎮 Suporte completo a interações do Discord
+- 🔄 Hot reload em desenvolvimento
+- 📊 Integração com MongoDB
+- 🛡️ Tratamento robusto de erros
+- 🎯 Tipagem completa
+- 🔌 Plugins extensíveis
+
+## 🚀 Scripts
+
+```bash
+# Desenvolvimento
+npm run dev         # Iniciar com .env
+npm run dev:dev    # Iniciar com .env.dev
+npm run watch      # Hot reload
+
+# Produção
+npm run build      # Compilar TypeScript
+npm start         # Iniciar versão compilada
+``` 
 
 ## 📝 Exemplo de Comando
 
@@ -87,4 +102,4 @@ createCommand({
 
 ## 📄 Licença <img src="https://img.shields.io/github/license/Eldritch-Tenebris/Base-Typescript?style=for-the-badge&cacheSeconds=60"/>
 
-Este projeto está licenciado sob a **MIT License**. Consulte o arquivo **LICENSE** para mais detalhes. 
+Este projeto está licenciado sob a **[MIT License](LICENSE)**. Consulte o arquivo para mais detalhes.
