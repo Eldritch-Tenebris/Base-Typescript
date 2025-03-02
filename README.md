@@ -60,6 +60,7 @@ discord-bot
 ## 🚀 Como Executar o Projeto
 
 1️⃣ Clone o repositório:
+[![GitHub Repo](https://img.shields.io/badge/GitHub-View%20Repo-blue?style=for-the-badge&logo=github)](../../)
 ```sh
 git clone https://github.com/{{ owner }}/{{ repository }}
 cd discord-bot
