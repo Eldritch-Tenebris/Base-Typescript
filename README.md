@@ -1,10 +1,11 @@
 # Base-Typescript
 
-> Base moderna para desenvolvimento de bots Discord usando TypeScript e MongoDB.
-> Feita em colaboração de .. ..
+> Uma base moderna para o desenvolvimento de bots para Discord utilizando TypeScript e MongoDB.
+
+> Criada em colaboração com [Eldritch Tenebris](https://github.com/Eldritch-Tenebris) & [lipedevv](https://github.com/lipedevv)
 
 <div align="center">
-   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+   <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
@@ -12,38 +13,54 @@
 
 ## 📦 Instalação Rápida
 
-```bash
 # Clone o repositório
+```bash
 git clone https://github.com/seu-usuario/
+```
+
+# Acesse o diretório do projeto
+```bash
+cd base-typescript
+```
 
 # Instale as dependências
+```bash
 npm install
+```
 
-# Configure o ambiente
+# Configure as variáveis de ambiente
+```bash
 cp .env.example .env
+```
 
-# Inicie em desenvolvimento
+# Inicie o ambiente de desenvolvimento
+```bash
 npm run dev
+```
 
-📚 Documentação
-Consulte nossa Wiki para documentação detalhada sobre:
+## 📚 Documentação
 
-🚀 Primeiros Passos
-⚙️ Configuração
-📂 Estrutura do Projeto
-💻 Guias de Desenvolvimento
-🔧 Referência da API
-🌟 Recursos
-Sistema moderno de comandos com TypeScript
-Gerenciamento avançado de eventos
-Sistema de responders para botões/menus
-Integração MongoDB para persistência
-Sistema de parâmetros dinâmicos
-Tratamento de erros robusto
-Hot reload em desenvolvimento
+Acesse nossa **Wiki** para informações detalhadas sobre:
 
-📝 Exemplo de Comando
+- 🚀 **Primeiros Passos**
+- ⚙️ **Configuração**
+- 📂 **Estrutura do Projeto**
+- 💻 **Guias de Desenvolvimento**
+- 🔧 **Referência da API**
 
+## 🌟 Recursos
+
+✅ Sistema moderno de comandos com TypeScript  
+✅ Gerenciamento avançado de eventos  
+✅ Suporte a botões e menus interativos  
+✅ Integração com MongoDB para persistência de dados  
+✅ Parâmetros dinâmicos e flexíveis  
+✅ Tratamento robusto de erros  
+✅ Hot reload para desenvolvimento ágil  
+
+## 📝 Exemplo de Comando
+
+```ts
 createCommand({
     name: "ping",
     description: "Mostra a latência do bot 🏓",
@@ -55,6 +72,8 @@ createCommand({
         });
     }
 });
+```
 
-📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## 📄 Licença
+
+Este projeto está licenciado sob a **MIT License**. Consulte o arquivo **LICENSE** para mais detalhes.
