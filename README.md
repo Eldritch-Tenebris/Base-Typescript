@@ -1,5 +1,13 @@
 # Base-Typescript
 
+<br />
+<p align="center">
+  <a href="https://discord.com/users/1226297864796246016" target="_blank">
+    <img src="https://i.imgur.com/13PduII.png" alt="Base-Typescript" width="200"/>
+  </a>
+</p>
+<br />
+
 > Uma base moderna para o desenvolvimento de bots para Discord utilizando TypeScript e MongoDB.
 
 > Criada em colaboração com [Eldritch Tenebris](https://github.com/Eldritch-Tenebris) & [lipedevv](https://github.com/lipedevv)
