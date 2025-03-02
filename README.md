@@ -13,7 +13,7 @@ Fiz esse projeto pensando em ajuda as pessoas que estão começando com Bots de 
 
 <p align="center">
 <a href="https://discord.com/users/1226297864796246016"><img src="https://img.shields.io/badge/Entrar%20em%20nosso-Discord-blue" alt="TypeScript"></a>
-<img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScriptLogo">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
 </p>
 
 
