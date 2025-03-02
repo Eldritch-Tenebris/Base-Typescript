@@ -13,17 +13,35 @@ Fiz esse projeto pensando em ajuda as pessoas que estão começando com Bots de 
 
 <p align="center">
 <a href="https://discord.com/users/1226297864796246016"><img src="https://img.shields.io/badge/Entrar%20em%20nosso-Discord-blue" alt="TypeScript"></a>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
 </p>
 
 
-# Discord Bot Project
+<br />
+<p align="center">
+  <a href="https://discord.com/users/1226297864796246016" target="_blank">
+    <img src="https://i.imgur.com/13PduII.png" alt="Base-Typescript" width="200"/>
+  </a>
+</p>
+<br />
 
-Este projeto é um bot para o Discord, desenvolvido em Node.js com TypeScript. O bot utiliza comandos de barra (slash commands) e se conecta a um banco de dados MongoDB para armazenar informações.
+<p align="center">
+  <strong>Fiz esse projeto para ajudar quem está começando com bots de Discord em TypeScript! 🚀</strong>
+</p>
 
-## Estrutura do Projeto
+<p align="center">
+  <a href="https://discord.com/users/1226297864796246016">
+    <img src="https://img.shields.io/badge/Entrar%20em%20nosso-Discord-blue" alt="Discord">
+  </a>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
+</p>
 
-A estrutura do projeto é organizada da seguinte forma:
+---
+
+# 🤖 Discord Bot Project
+
+Este é um bot para o Discord, desenvolvido com **Node.js e TypeScript**. Ele suporta **comandos de barra (slash commands)** e se conecta a um banco de dados **MongoDB** para armazenar informações.
+
+## 📁 Estrutura do Projeto
 
 ```
 discord-bot
@@ -33,55 +51,60 @@ discord-bot
 │   │   └── admin         # Comandos administrativos
 │   ├── events            # Eventos do bot
 │   ├── models            # Modelos do MongoDB
-│   ├── utils             # Utilitários
+│   ├── utils             # Funções auxiliares
 │   ├── services          # Serviços do bot
 │   ├── types             # Tipos e interfaces
 │   ├── config.ts        # Configurações do bot
 │   ├── client.ts        # Configuração do cliente do Discord
 │   └── index.ts         # Ponto de entrada da aplicação
 ├── .env.example          # Exemplo de variáveis de ambiente
-├── .gitignore            # Arquivos a serem ignorados pelo Git
+├── .gitignore            # Arquivos ignorados pelo Git
 ├── package.json          # Configuração do npm
 ├── tsconfig.json         # Configuração do TypeScript
 ├── README.md             # Documentação do projeto
 └── nodemon.json          # Configurações do Nodemon
 ```
 
-## Funcionalidades
+## ⚡ Funcionalidades
 
-- **Comandos de Barra**: O bot suporta comandos de barra, permitindo uma interação mais intuitiva.
-- **Banco de Dados MongoDB**: Armazena informações sobre usuários e guildas.
-- **Comandos Básicos**:
-  - `/ping`: Responde com "Pong!".
-  - `/help`: Lista todos os comandos disponíveis.
-  - `/info`: Fornece informações sobre o bot, como versão e autor.
-  - Comandos administrativos para banir e expulsar usuários.
+✅ **Comandos de Barra (Slash Commands)** - Interação intuitiva com o bot.
+✅ **Banco de Dados MongoDB** - Armazena informações sobre usuários e guildas.
+✅ **Comandos Essenciais**:
+- `/ping` - Responde com "Pong!" 🏓
+- `/help` - Lista todos os comandos disponíveis 📜
+- `/info` - Exibe informações sobre o bot ℹ️
+- Comandos administrativos como **banir** e **expulsar** usuários ⚠️
 
-## Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
-1. Clone o repositório:
-   ```
-   git clone <URL_DO_REPOSITORIO>
-   cd discord-bot
-   ```
+1️⃣ Clone o repositório:
+```sh
+git clone <URL_DO_REPOSITORIO>
+cd discord-bot
+```
 
-2. Instale as dependências:
-   ```
-   npm install
-   ```
+2️⃣ Instale as dependências:
+```sh
+npm install
+```
 
-3. Configure as variáveis de ambiente:
-   - Renomeie o arquivo `.env.example` para `.env` e preencha com suas informações.
+3️⃣ Configure as variáveis de ambiente:
+- Renomeie `.env.example` para `.env` e preencha com suas informações.
 
-4. Inicie o bot:
-   ```
-   npm run start
-   ```
+4️⃣ Inicie o bot:
+```sh
+npm run start
+```
 
-## Contribuição
+## 🤝 Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+Contribuições são bem-vindas! Se quiser ajudar, abra uma **issue** ou envie um **pull request**. 😃
 
-## Licença
+## 📜 Licença
 
-Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a **MIT License**. Veja o arquivo LICENSE para mais detalhes.
+
+---
+
+<p align="center">💙 Feito com TypeScript para a comunidade do Discord! 💙</p>
+
