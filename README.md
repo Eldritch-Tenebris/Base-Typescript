@@ -1,8 +1,8 @@
 <br />
 <p align="center">
-  <a href="https://discord.com/users/1226297864796246016" target="_blank">
-    <img src="https://i.imgur.com/13PduII.png" alt="Base-Typescript" width="200"/>
-  </a>
+<a href="https://discord.com/users/1226297864796246016" target="_blank">
+  <img src="https://i.imgur.com/13PduII.png" alt="Base-Typescript">
+</a>
 </p>
 <br />
 
