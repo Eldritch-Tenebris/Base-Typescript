@@ -1,5 +1,9 @@
 {
-  "name": "amiro_base",
+  "name": "base_typescript", 
+  "version": "1.0.0",
+  "description": "Base completa para projetos em TypeScript",
+  "authors": ["Eldritch Tenebris", "lipedevv"],
+  "license": "MIT",
   "type": "module",
   "main": "build/index.js",
   "scripts": {
