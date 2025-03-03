@@ -24,36 +24,6 @@ Feito com 💜 por <a href="https://github.com/Eldritch-Tenebris">Eldritch Teneb
 
 ---
 
-# 📦 Instalação Rápida
- 
-## Clone o repositório 🔧
-```bash
-git clone https://github.com/Eldritch-Tenebris/Base-Typescript.git
-```
-
-## Acesse o diretório do projeto 📁
-```bash
-cd Base-Typescript
-```
-
-Instale as dependências 🏴󠁶󠁥󠁷󠁿
-
-```bash
-npm install
-```
-
-Configure as variáveis de ambiente 🪀
-
-```bash
-cp .env.example .env
-```
-
-Inicie o ambiente de desenvolvimento 👾
-
-```bash
-npm run dev
-```
-
 ## 📚 Documentação
 
 Acesse nossa **[Wiki](https://github.com/Eldritch-Tenebris/Base-Typescript/wiki)** para informações detalhadas sobre:
