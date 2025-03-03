@@ -36,17 +36,20 @@ git clone https://github.com/Eldritch-Tenebris/Base-Typescript.git
 cd Base-Typescript
 ```
 
-## Instale as dependências 🏴󠁶󠁥󠁷󠁿
+Instale as dependências 🏴󠁶󠁥󠁷󠁿
+
 ```bash
 npm install
 ```
 
-## Configure as variáveis de ambiente
+Configure as variáveis de ambiente 🪀
+
 ```bash
 cp .env.example .env
 ```
 
-## Inicie o ambiente de desenvolvimento
+Inicie o ambiente de desenvolvimento 👾
+
 ```bash
 npm run dev
 ```
