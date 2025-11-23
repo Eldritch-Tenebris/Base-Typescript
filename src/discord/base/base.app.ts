@@ -36,11 +36,11 @@ export async function bootstrap(options: BootstrapOptions){
     }
     
     logger.log();
-    logger.log(ck.blue(`★ Amiro Base ${ck.reset.dim(BASE_VERSION)}`));
+    logger.log(ck.blue(`★ Base TypeScript ${ck.reset.dim(BASE_VERSION)}`));
     logger.log(
         `${ck.hex("#5865F2")("◌ discord.js")} ${ck.dim(djsVersion)}`,
         "|",
-        `${ck.hex("#54A044")("◌ node.js")} ${ck.reset.dim(process.versions.node)}`
+        `${ck.hex("#54A044")("⬢ node.js")} ${ck.reset.dim(process.versions.node)}`
     );
     
     baseRegisterEvents(client);
