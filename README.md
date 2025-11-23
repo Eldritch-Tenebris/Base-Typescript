@@ -3,7 +3,7 @@
 <br />
 <p align="center">
 <a href="https://discord.com/users/1226297864796246016" target="_blank">
-  <img src="https://i.imgur.com/13PduII.png" alt="Base-Typescript">
+  <img src="https://i.imgur.com/VZnO49V.png" alt="Base-Typescript">
 </a>
 </p>
 <br />
